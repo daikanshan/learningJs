@@ -11,7 +11,7 @@ var object = {
 }
 console.log(object.position_x);
 /**
- *只有字符串和label可以作为对象的属性的描述，在使用``.``时只能对label起效，
+ *只有字符串和label可以作为对象的属性的描述
  *在使用``[]``时，会对[]里的值做``.toString()``的隐性转换。
  */
 //console.log(object.0); // => error
